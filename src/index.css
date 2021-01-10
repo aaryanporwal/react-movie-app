@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
 /*
- Sobre o box-sizing border-box:
+ On box-sizing and border-box:
  http://sergiolopes.org/css-box-sizing-border-box/
  */
 * {
@@ -18,7 +18,8 @@ body {
 /*
   Flex Direction: https://origamid.com/projetos/flexbox-guia-completo/#flex-direction
 
-  No modo column os itens ficam em uma unica coluna, um abaixo do outro
+    In column mode, items are in a single column, one below the other
+
 */
 .root {
   display: flex;
