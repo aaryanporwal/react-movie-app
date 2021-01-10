@@ -36,6 +36,7 @@ function App() {
   return (
     <>
       <header>
+        <h1>Which Movie Should I Watch?</h1>
         <form onSubmit={handleOnSubmit}>
           <input
             type="search"
@@ -46,6 +47,9 @@ function App() {
           />
         </form>
       </header>
+      <div className="genre-title">
+        <h2>Sorted By Popularity</h2>
+      </div>
       <div className="movie-container">
         {movies.length > 0 &&
           movies.map((movie) => <Movie key={movie.id} {...movie} />)}
