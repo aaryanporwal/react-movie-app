@@ -2,7 +2,7 @@
 
 /*
  On box-sizing and border-box:
- http://sergiolopes.org/css-box-sizing-border-box/
+ https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
  */
 * {
   box-sizing: border-box;
@@ -16,7 +16,7 @@ body {
 }
 
 /*
-  Flex Direction: https://origamid.com/projetos/flexbox-guia-completo/#flex-direction
+  Flex Direction: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction
 
     In column mode, items are in a single column, one below the other
 
@@ -63,7 +63,7 @@ header form {
     margin: auto;
 }
 /*
-  Flex Wrap: https://origamid.com/projetos/flexbox-guia-completo/#flex-wrap
+  Flex Wrap: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap
 */
 .movie-container {
   display: flex;
