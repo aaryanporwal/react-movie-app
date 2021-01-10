@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import Movie from "./components/Movie";
 
 const FEATURED_API =
-  "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=7ecd0b11bc4cd387a22b43cb37086584";
+  "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=f61095f969a72b2640a7ff8ec08c5a31";
 const SEARCH_API =
-  "https://api.themoviedb.org/3/search/movie?&api_key=7ecd0b11bc4cd387a22b43cb37086584&query=";
+  "https://api.themoviedb.org/3/search/movie?&api_key=f61095f969a72b2640a7ff8ec08c5a31&query=";
 
 function App() {
   const [movies, setMovies] = useState([]);
